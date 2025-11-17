@@ -25,4 +25,4 @@ The layout is fully responsive for both **web and mobile**.
 - 🌓 Dark overlay for a sleek look  
 
 ---
-
+“Thanks for checking out my work! This portfolio will continue to expand as I complete more projects, refine my skills, and tackle new challenges.”
