@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Update Required</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="background-strips">
+        <div class="strip"></div>
+        <div class="strip"></div>
+        <div class="strip"></div>
+        <div class="strip"></div>
+        <div class="strip"></div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="container">
+
+        <div class="warning-section">
+            <div class="warning-header">
+                <div class="warning-icon">
+                    <img src="assets/exclamation-triangle.svg" alt="Warning">
+                </div>
+                <h1>Your browser Internet Explorer 11 is deprecated</h1>
+            </div>
+
+            <p>Modern browsers protect your device from viruses and support new technologies.</p>
+
+            <p>That's why we decided to stop supporting your current browser or your browser version.
+                To access our website, please download one of the browsers below:
+            </p>
+
+            <button class="update-button">How do I update my browser?</button>
+        </div>
+
+        <div class="browsers-grid">
+
+            <div class="browser-card" onclick="downloadBrowser('chrome')">
+                <div class="browser-icon">
+                    <img src="assets/chrome.svg" alt="Google Chrome">
+                </div>
+                <div class="browser-info">
+                    <span class="browser-name">Google Chrome</span>
+                    <span class="browser-version">Version 40+</span>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+
+            <div class="browser-card" onclick="downloadBrowser('firefox')">
+                <div class="browser-icon">
+                    <img src="assets/firefox-browser.svg" alt="Mozilla Firefox">
+                </div>
+                <div class="browser-info">
+                    <span class="browser-name">Mozilla Firefox</span>
+                    <span class="browser-version">Version 40+</span>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+
+            <div class="browser-card" onclick="downloadBrowser('edge')">
+                <div class="browser-icon">
+                    <img src="assets/edge.svg" alt="Microsoft Edge">
+                </div>
+                <div class="browser-info">
+                    <span class="browser-name">Microsoft Edge</span>
+                    <span class="browser-version">Version 40+</span>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+
+            <div class="browser-card" onclick="downloadBrowser('safari')">
+                <div class="browser-icon">
+                    <img src="assets/safari.svg" alt="Apple Safari">
+                </div>
+                <div class="browser-info">
+                    <span class="browser-name">Apple Safari</span>
+                    <span class="browser-version">Version 40+</span>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+
+            <div class="browser-card" onclick="downloadBrowser('opera')">
+                <div class="browser-icon">
+                    <img src="assets/opera.svg" alt="Opera">
+                </div>
+                <div class="browser-info">
+                    <span class="browser-name">Opera</span>
+                    <span class="browser-version">Version 40+</span>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
