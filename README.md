@@ -20,9 +20,7 @@ The layout is fully responsive for both **web and mobile**.
 - ⚠️ Warning section with an alert icon  
 - 🌐 Grid of recommended browsers (Chrome, Firefox, Edge, Safari, Opera)  
 - ⬇️ Download buttons linking to official browser websites  
-- 📱 Fully responsive design (desktop, tablet, mobile)  
 - 🎭 Hover and shadow effects for browser cards  
-- 🌓 Dark overlay for a sleek look  
 
 ---
 “Thanks for checking out my work! This portfolio will continue to expand as I complete more projects, refine my skills, and tackle new challenges.”
